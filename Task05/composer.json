@@ -1,0 +1,20 @@
+{
+    "name": "pochtovaa/task05",
+    "autoload": {
+        "psr-4": {
+            "PochtovAA\\Task05\\": [ 
+                "src/",
+                "tests/Unit/"
+            ]
+        },
+        "files": [ "src/Test.php" ]
+    },
+    "authors": [
+        {
+            "name": "pochtovaa"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
